@@ -4,6 +4,9 @@ import Routes from "./Routes";
 import { createTheme } from "@material-ui/core";
 import { ThemeProvider } from "@material-ui/styles";
 
+// IMPORT BASE STYLE
+import "./styles/_base.scss";
+
 // CREATE MATERIAL UI THEME
 const theme = createTheme({
   palette: {
