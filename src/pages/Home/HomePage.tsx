@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import "./homepage.scss";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="home__container">
             This is HomePage
         </div>
     )

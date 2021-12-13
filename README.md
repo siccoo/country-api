@@ -11,7 +11,7 @@ A web app that lists countries in the world. List of countries is fetched from (
 - Types - [*]
 - Reducer state and actions initiation - [*]
 - React Material UI Setup - [*]
-- SASS/Styles - []
+- SASS/Styles - [*]
 - Appbar  - []
 - Drawer - []
 - Components -> Country card  - []

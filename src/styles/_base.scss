@@ -1,0 +1,25 @@
+// CONSIST OF ALL BASIC SETUP, COLORS AND FONTS
+@import "./reset";
+
+// FONTS SETUP
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+
+// FUNCTIONS
+@function weight($weight__name) {
+  @return map-get($font__weights, $weight__name);
+}
+
+// INITIATE ALL VARIABLES
+$primary: #3d89e9;
+$primaryHover: #1f7afd;
+$darkBlue: #15181f;
+$grey: #f6f7f9;
+$white: #dbffff;
+$blackLight: #898b8e;
+
+// ALL FONT WEIGHTS
+$font__weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
+);
