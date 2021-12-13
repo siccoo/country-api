@@ -2,13 +2,11 @@ import { applyMiddleware, compose, createStore } from "redux";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers";
 
-const initState = {
-    testId: ""
-};
+const initState = {};
 
 declare global {
     interface Window {
-      __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
+        __REDUX_DEVTOOLS_EXTENSION_COMPOSE__?: typeof compose;
     }
 }
 
@@ -23,16 +21,16 @@ const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 //     }
 // }
 
-export default function makeStore(initialState = initState, ) {
+export default function makeStore(initialState = initState) {
     const middleWares = [thunk];
 
     // Creating Redux Store
-    const store = createStore(rootReducer, initialState, composeEnhancer(applyMiddleware(...middleWares)));
+    const store = createStore(rootReducer(), initialState, composeEnhancer(applyMiddleware(...middleWares)));
 
-    if((module as any).hot) {
-        ;(module as any).hot.accept("./reducers", () => {
-                const nextReducer = require("./reducers").default
-                store.replaceReducer(nextReducer)
+    if ((module as any).hot) {
+        ; (module as any).hot.accept("./reducers", () => {
+            const nextReducer = require("./reducers").default
+            store.replaceReducer(nextReducer)
         })
     }
 
