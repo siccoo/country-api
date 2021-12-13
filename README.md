@@ -7,7 +7,7 @@ A web app that lists countries in the world. List of countries is fetched from (
 - Install packages SASS, Redux, Thunk, React Router, Axios - [*]
 - Folder structures - [*]
 - Router setup - [*] 
-- Redux setup  - []
+- Redux setup  - [*]
 - Types - []
 - Reducer state and actions initiation - []
 - React Material UI - []
