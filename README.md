@@ -3,7 +3,7 @@ A web app that lists countries in the world. List of countries is fetched from (
 
 ### Tasks 
 
-- Create a React App + typescript - [*]
+- Create a React App + Typescript - [*]
 - Install packages SASS, Redux, Thunk, React Router, Axios - [*]
 - Folder structures - []
 - Router setup - [] 
@@ -38,4 +38,4 @@ A web app that lists countries in the world. List of countries is fetched from (
 ### Run Locally
 + Clone this Repository or download the Repository
 + Run `yarn install` (Assuming you have node installed, yarn ready to use)
-+ Run `yarn start
++ Run `yarn start`
