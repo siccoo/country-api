@@ -5,7 +5,7 @@ A web app that lists countries in the world. List of countries is fetched from (
 
 - Create a React App + Typescript - [*]
 - Install packages SASS, Redux, Thunk, React Router, Axios - [*]
-- Folder structures - []
+- Folder structures - [*]
 - Router setup - [] 
 - Redux setup  - []
 - Types - []
