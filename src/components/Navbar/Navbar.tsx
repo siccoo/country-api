@@ -14,12 +14,17 @@ const Navbar = () => {
                 </div>
                 {/* SEARCH BAR AREA */}
                 <div className="navbar__content-search">
-                    Search
+                    {/* SEARCH BAR COMPONENT */}
                 </div>
                 {/* RIGHT ITEMS AREA */}
                 <div className="navbar__content-right">
-                    <ShoppingCartIcon/>
-                    <MenuIcon/>
+                    {/* SHOPPING CART */}
+                    <div className="navbar__content-cart">
+                    <ShoppingCartIcon />
+                        {/* CART COUNTER  */}
+                    </div>
+                    {/* MENU HAMBURGER ICON */}
+                    <MenuIcon />
                 </div>
             </div>
         </section>
