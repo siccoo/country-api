@@ -9,6 +9,13 @@
   @return map-get($font__weights, $weight__name);
 }
 
+// ALL FONT WEIGHTS
+$font__weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 700,
+);
+
 // INITIATE ALL VARIABLES
 $primary: #3d89e9;
 $primaryHover: #1f7afd;
@@ -17,9 +24,27 @@ $grey: #f6f7f9;
 $white: #dbffff;
 $blackLight: #898b8e;
 
-// ALL FONT WEIGHTS
-$font__weights: (
-  "regular": 400,
-  "medium": 500,
-  "bold": 700,
-);
+$font-family: "Poppins", san-serif;
+
+// GLOBAL
+$max-width: 1040px;
+
+:root {
+  font-size: 8px;
+  font-weight: weight(regular);
+  font-family: $font-family;
+};
+
+.container {
+  max-width: $max-width;
+  margin: auto;
+}
+
+// TYPOGRAPHY
+h1 {};
+h2 {
+  font-size: 3rem;
+  font-family: $font-family;
+  font-weight: weight(regular);
+};
+h3 {};
