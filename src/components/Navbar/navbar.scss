@@ -1,10 +1,23 @@
 @import "../../styles/base";
 
 .navbar {
-    height: 80px;
+    // height: 80px;
+    padding: 7px;
 
     &__content {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    &__content-left {
+        img {
+            max-width: 120px;
+        }
+    }
+
+    &__content-right {
+        display: flex;
+        align-items: center;
     }
 }
