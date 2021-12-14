@@ -12,5 +12,10 @@
     &__wrapper {
         display: flex;
         align-items: center;
+
+        // INCREASE THE FONT-SIZE OF THE ICONS
+        svg.MuiSvgIcon-root {
+            // font-size: 25px;
+        }
     }
 }

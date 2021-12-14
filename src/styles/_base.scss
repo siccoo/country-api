@@ -48,3 +48,9 @@ h2 {
   font-weight: weight(regular);
 };
 h3 {};
+
+.MuiInputBase-input {
+  font-family: $font-family !important;
+  color: $darkBlue !important;
+  font-size: 2rem !important;
+}
