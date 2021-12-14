@@ -24,6 +24,9 @@ const Navbar = () => {
                     <div className="navbar__content-cart">
                     <ShoppingCartIcon />
                         {/* CART COUNTER  */}
+                        <span className="navbar__content-cart-counter">
+                            10
+                        </span>
                     </div>
                     {/* MENU HAMBURGER ICON */}
                     <MenuIcon />
