@@ -1,0 +1,16 @@
+@import "../../styles/base";
+
+.search__box {
+    background-color: $grey;
+    border-radius: 4px;
+    border: 1px solid #EEEEEE;
+    height: 29px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import MenuIcon from "@material-ui/icons/Menu";
+import Search from '../Search/Search';
 
 import "./navbar.scss";
 
@@ -15,6 +16,7 @@ const Navbar = () => {
                 {/* SEARCH BAR AREA */}
                 <div className="navbar__content-search">
                     {/* SEARCH BAR COMPONENT */}
+                    <Search />
                 </div>
                 {/* RIGHT ITEMS AREA */}
                 <div className="navbar__content-right">
