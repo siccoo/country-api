@@ -24,8 +24,22 @@ const Sidebar = (props: SidebarProps) => {
                 <div className="sidebar__drawer-content">
                     <CloseIcon onClick={onDrawerClose} className="sidebar__drawer-close-menu" />
                     {/* THEME COMPONENTS */}
-                    <div className="sidebar__drawer-navigation">
-                        <h5>Theme</h5>
+                    <div className="sidebar__drawer-content-navigation">
+                        <h3>Theme</h3>
+                        <ul>
+                            <li>
+                                <h2>Blue</h2>
+                                <span className="sidebar__color-box"></span>
+                            </li>
+                            <li>
+                                <h2>Yellow</h2>
+                                <span className="sidebar__color-box"></span>
+                            </li>
+                            <li>
+                                <h2>Purple</h2>
+                                <span className="sidebar__color-box"></span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </Drawer>

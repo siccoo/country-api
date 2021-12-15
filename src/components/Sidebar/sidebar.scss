@@ -26,6 +26,19 @@
         color: $darkBlue !important;
         cursor: pointer;
       }
+
+      &-navigation {
+        margin-top: 14px;
+        padding-right: 14px;
+
+        ul {
+            li {
+                margin-bottom: 14px;
+                display: list-item;
+                align-items: center;
+            }
+        }
+      }
     }
   }
 }
