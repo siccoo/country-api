@@ -1,0 +1,31 @@
+@import "../../styles/base";
+
+.sidebar {
+  background-color: $white;
+  // padding-top: 10px;
+
+  &__drawer {
+    min-width: 250px !important;
+
+    .MuiDrawer-paperAnchorRight {
+      left: auto;
+      right: 0;
+      width: 250px;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-top: 7px;
+      padding-right: 30px;
+
+      // INCREASE THE FONT-SIZE OF THE ICONS
+      svg.MuiSvgIcon-root {
+        font-size: 25px;
+        color: $darkBlue !important;
+        cursor: pointer;
+      }
+    }
+  }
+}

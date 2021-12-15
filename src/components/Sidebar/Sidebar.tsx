@@ -1,6 +1,8 @@
 import React from 'react';
 import { Drawer } from '@material-ui/core';
+import CloseIcon from '@material-ui/icons/Close';
 
+import "./sidebar.scss";
 interface SidebarProps {
     onClick: Function,
     drawerState: boolean
@@ -19,9 +21,13 @@ const Sidebar = (props: SidebarProps) => {
         <div className="sidebar">
             {/* DRAWER COMPONENT */}
             <Drawer anchor="right" open={drawerState} onClick={onDrawerClose} className="sidebar__drawer">
-                <p>Drawer Items</p>
-                <p>Drawer Items</p>
-                <p>Drawer Items</p>
+                <div className="sidebar__drawer-content">
+                    <CloseIcon onClick={onDrawerClose} className="sidebar__drawer-close-menu" />
+                    {/* THEME COMPONENTS */}
+                    <div className="sidebar__drawer-navigation">
+                        <h5>Theme</h5>
+                    </div>
+                </div>
             </Drawer>
         </div>
     )
