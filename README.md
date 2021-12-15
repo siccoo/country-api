@@ -13,7 +13,7 @@ A web app that lists countries in the world. List of countries is fetched from (
 - React Material UI Setup - [*]
 - SASS/Styles - [*]
 - Appbar  - [*]
-- Drawer - []
+- Drawer - [*]
 - Components -> Country card  - []
 
 - API data fetch- []

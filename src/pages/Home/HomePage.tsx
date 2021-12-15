@@ -15,7 +15,7 @@ const HomePage = () => {
     return (
         <div className="home__container">
             {/* NAVBAR COMPONENT */}
-            <Navbar />
+            <Navbar onClick={handleDrawerState} drawerState={drawerState} />
             {/* SIDEBAR COMPONENT */}
             <Sidebar onClick={handleDrawerState} drawerState={drawerState} />
         </div>
