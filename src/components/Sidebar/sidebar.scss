@@ -36,7 +36,8 @@
         color: $darkBlue;
 
         ul {
-          margin-top: 8rem;
+          margin-top: 4rem;
+
             li {
                 margin-bottom: 30px;
                 display: flex;
@@ -53,7 +54,18 @@
                   height: 30px;
                   margin-left: 2rem;
                   border-radius: 5px;
+                }
+
+                >.blue {
                   background-color: $primary;
+                }
+
+                >.green {
+                  background-color: $lightGreen;
+                }
+
+                >.red {
+                  background-color: $red;
                 }
             }
         }

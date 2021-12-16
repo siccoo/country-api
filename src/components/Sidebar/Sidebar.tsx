@@ -29,15 +29,15 @@ const Sidebar = (props: SidebarProps) => {
                         <ul>
                             <li>
                                 <h2>Blue</h2>
-                                <span className="sidebar__color-box"></span>
+                                <span className="sidebar__color-box blue"></span>
                             </li>
                             <li>
-                                <h2>Yellow</h2>
-                                <span className="sidebar__color-box"></span>
+                                <h2>Green</h2>
+                                <span className="sidebar__color-box green"></span>
                             </li>
                             <li>
-                                <h2>Purple</h2>
-                                <span className="sidebar__color-box"></span>
+                                <h2>Red</h2>
+                                <span className="sidebar__color-box red"></span>
                             </li>
                         </ul>
                     </div>
