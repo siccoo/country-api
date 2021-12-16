@@ -30,12 +30,31 @@
       &-navigation {
         margin-top: 14px;
         padding-right: 14px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: $darkBlue;
 
         ul {
+          margin-top: 8rem;
             li {
-                margin-bottom: 14px;
-                display: list-item;
+                margin-bottom: 30px;
+                display: flex;
                 align-items: center;
+                justify-content: flex-end;
+
+                h2 {
+                  font-size: 18px !important;
+                  color: $blackLight;
+                }
+
+                .sidebar__color-box {
+                  width: 60px;
+                  height: 30px;
+                  margin-left: 2rem;
+                  border-radius: 5px;
+                  background-color: $primary;
+                }
             }
         }
       }
