@@ -1,3 +1,5 @@
+// INITIATE ALL VARIABLES
+
 // CONSIST OF ALL BASIC SETUP, COLORS AND FONTS
 @import "./reset";
 
@@ -16,15 +18,17 @@ $font__weights: (
   "bold": 700,
 );
 
-// INITIATE ALL VARIABLES
+// ALL FONT COLORS
 $primary: #3d89e9;
 $primaryHover: #1f7afd;
 $darkBlue: #15181f;
 $grey: #f6f7f9;
+$mainWhite: #ffffff;
 $white: #dbffff;
 $blackLight: #898b8e;
 $lightGreen: #23F0DC;
 $red: #F1622F;
+$boxShadow: #a59b9730;
 
 $font-family: "Poppins", san-serif;
 

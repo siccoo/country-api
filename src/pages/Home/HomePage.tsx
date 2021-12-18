@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Sidebar from '../../components/Sidebar/Sidebar';
+import CountryCard from '../../components/CountryCard/CountryCard';
 
 import "./homepage.scss";
 
@@ -18,6 +19,13 @@ const HomePage = () => {
             <Navbar onClick={handleDrawerState} drawerState={drawerState} />
             {/* SIDEBAR COMPONENT */}
             <Sidebar onClick={handleDrawerState} drawerState={drawerState} />
+            {/* COUNTRIES CONTENT COMPONENT */}
+            <div className="home__container__content">
+                <CountryCard />
+                <CountryCard />
+                <CountryCard />
+                <CountryCard />
+            </div>
         </div>
     )
 }
