@@ -29,8 +29,21 @@ $blackLight: #898b8e;
 $lightGreen: #23F0DC;
 $red: #F1622F;
 $boxShadow: #a59b9730;
-
 $font-family: "Poppins", san-serif;
+
+// BUTTONS
+.btn {
+  font-size: 14px !important;
+  font-weight: weight(medium) !important;
+  padding: 10px 52px !important;
+  font-family: $font-family !important;
+  border-radius: 3px;
+
+  &__primary {
+    background-color: $primary !important;
+    color: $mainWhite !important;
+  }
+}
 
 // GLOBAL
 $max-width: 1040px;
