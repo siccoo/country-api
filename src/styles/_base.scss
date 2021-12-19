@@ -20,7 +20,7 @@ $font__weights: (
 
 // ALL FONT COLORS
 $primary: #3d89e9;
-$primaryHover: #1f7afd;
+$primaryHover: #094497;
 $darkBlue: #15181f;
 $grey: #f6f7f9;
 $mainWhite: #ffffff;
@@ -35,15 +35,20 @@ $font-family: "Poppins", san-serif;
 .btn {
   font-size: 14px !important;
   font-weight: weight(medium) !important;
-  padding: 10px 52px !important;
+  padding: 10px 72px !important;
   font-family: $font-family !important;
   border-radius: 3px;
   display: inline-block !important;
   text-align: center !important;
+  transition: all 0.2s;
 
   &__primary {
     background-color: $primary !important;
     color: $mainWhite !important;
+
+    &:hover {
+      background-color: $primaryHover !important;
+    }
   }
 }
 
