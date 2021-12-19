@@ -38,6 +38,8 @@ $font-family: "Poppins", san-serif;
   padding: 10px 52px !important;
   font-family: $font-family !important;
   border-radius: 3px;
+  display: inline-block !important;
+  text-align: center !important;
 
   &__primary {
     background-color: $primary !important;
