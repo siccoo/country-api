@@ -35,12 +35,14 @@ $font-family: "Poppins", san-serif;
 .btn {
   font-size: 14px !important;
   font-weight: weight(medium) !important;
-  padding: 10px 72px !important;
+  // padding: 10px 85px !important;
   font-family: $font-family !important;
   border-radius: 3px;
   display: inline-block !important;
   text-align: center !important;
   transition: all 0.2s;
+  text-transform: none !important;
+  width: 100%;
 
   &__primary {
     background-color: $primary !important;
