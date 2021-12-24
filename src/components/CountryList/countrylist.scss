@@ -1,0 +1,10 @@
+@import "../../styles/base";
+
+.country__list {
+    margin: 20px auto 0 auto;
+
+    &__card {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
