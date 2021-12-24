@@ -30,6 +30,7 @@ export function fetchAllCountriesFailure(error: string): CountryAction {
 // FETCH ALL COUNTRIES DATA
 export function fetchAllCountries() {
     return (dispatch: Dispatch) => {
+        dispatch(fetchAllCountriesRequest())
         // AXIOS CALL
         axios.get("https://restcountries.com/v3.1/all").then((res) => {
             const countries = res.data;
