@@ -14,9 +14,9 @@ A web app that lists countries in the world. List of countries is fetched from (
 - SASS/Styles - [*]
 - Appbar  - [*]
 - Drawer - [*]
-- Components -> Country card  - []
+- Components -> Country card  - [*]
 
-- API data fetch- []
+- API data fetch- [*]
 - Render actual countries data - []
 - Add to cart action, reducer  - []
 - Show cart items - menu component  - []
