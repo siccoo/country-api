@@ -1,13 +1,21 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux"; 
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { fetchAllCountries } from "../../redux/actions";
 import CountryCard from "../CountryCard/CountryCard";
 
 import "./countrylist.scss";
 
 const CountryList = () => {
+  // GET ALL COUNTRIES FROM REDUX STATE
 
-    
+  // INITIALIZE DISPATCH
+  const dispatch = useDispatch();
+
+  // DISPATCH fetchAllCountries
+  useEffect(() => {
+    dispatch(fetchAllCountries());
+  }, [dispatch]);
+
   return (
     <div className="country__list">
       {/* SORT COUNTRY */}
