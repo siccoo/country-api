@@ -1,7 +1,7 @@
 import { FETCH_COUNTRIES_FAILURE, FETCH_COUNTRIES_SUCCESS, FETCH_COUNTRIES_REQUEST } from "../constants/countryConstants";
 import { CountryReducerState } from "../../types";
 
-// const initiState ={
+// const initiState =  {
 //     countries: [],
 //     isLoading: false,
 //     error: ""

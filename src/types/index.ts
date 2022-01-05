@@ -4,5 +4,5 @@ export * from "./countryTypes";
 
 // GLOBAL APP STATE
 export type AppState = {
-    CountryReducer: CountryReducerState
+    countryReducer: CountryReducerState
 }

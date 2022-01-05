@@ -13,6 +13,7 @@ export function fetchAllCountriesRequest(): CountryAction {
 
 // FETCH ALL SUCCESS COUNTRIES
 export function fetchAllCountriesSuccess(countries: []): CountryAction {
+    console.log(countries);
     return {
         type: FETCH_COUNTRIES_SUCCESS,
         payload: countries
@@ -33,8 +34,9 @@ export function fetchAllCountries() {
         dispatch(fetchAllCountriesRequest())
         // AXIOS CALL
         axios.get("https://restcountries.com/v3.1/all").then((res) => {
-            const countries = res.data;
-            dispatch(fetchAllCountriesSuccess(countries))
+            const {data} = res
+            console.log(data)
+            dispatch(fetchAllCountriesSuccess(data))
         }).catch((err) => {
             dispatch(fetchAllCountriesFailure(err))
         })

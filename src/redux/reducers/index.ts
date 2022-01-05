@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
-import CountryReducer from "./countryReducer";
+import countryReducer from "./countryReducer";
 
 const rootReducer = () => 
     combineReducers({
-        CountryReducer
+        countryReducer
     })
 
 
