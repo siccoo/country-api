@@ -2,7 +2,7 @@ import Button from "@material-ui/core/Button";
 
 import "./countrycard.scss";
 
-interface CountryCardProps {
+type CountryCardProps = {
   flag: string;
   name: string;
   region: string;

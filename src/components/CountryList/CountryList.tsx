@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { AppState } from "../../types";
 import { fetchAllCountries } from "../../redux/actions";
@@ -32,7 +32,7 @@ const CountryList = () => {
   useEffect(() => {
     dispatch(fetchAllCountries());
   }, [dispatch]);
-  console.log(countries)
+  console.log(countries);
   return (
     <div className="country__list">
       {/* SORT COUNTRY */}
@@ -41,7 +41,7 @@ const CountryList = () => {
       <div className="country__list__card">
         {isLoading && <h2>Loading...</h2>}
 
-        {/* {!isLoading &&
+        {!isLoading &&
           countries &&
           countries.map((country) => (
             <CountryCard
@@ -49,8 +49,9 @@ const CountryList = () => {
               // name={country?.name}
               // region={country?.region}
               {...country}
+              // key={country.name}
             />
-          ))} */}
+          ))}
       </div>
       <div className="country__list__pagination"></div>
     </div>
